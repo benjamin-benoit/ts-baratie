@@ -18,6 +18,6 @@ export default class Kitchen {
     this._dish.push(dish);
     setTimeout( () => {
       console.log(`${dish} cooked by Kitchen!`)
-    }, dish.bakedTime * 1000 * this._multiplier);
+    }, dish.bakingTime * 1000 * this._multiplier);
   }
 }
